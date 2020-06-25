@@ -20,12 +20,12 @@ public class SearchFlightTestCases extends TestBase {
 		super();
 	}
 
-	@BeforeMethod(alwaysRun = true)
-	public void setUp() {
+	//@BeforeMethod(alwaysRun = true)
+	//public void setUp() {
 		// initializaton();
-		homePage = new HomePage();
-		searchFlightsPage = homePage.selectFlightOption();
-	}
+	//	homePage = new HomePage();
+	//	searchFlightsPage = homePage.selectFlightOption();
+	//}
 
 	@Test(groups = { "Simple", "UI" })
 	public void TC001_VerifyHeaderContent() {
